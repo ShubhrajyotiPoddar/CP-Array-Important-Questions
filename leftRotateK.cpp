@@ -20,7 +20,7 @@ class test{
         for(int i=k; i<n; i++){
             arr[i-k]= arr[i];
         }
-            int ind=0;
+        int ind=0;
         for(int i=n-k; i<n; i++){
             arr[i]= temp[ind++];
         }
